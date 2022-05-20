@@ -81,7 +81,7 @@ As we can see, there are total three overridden methods and details as mentioned
 
 1. **preHandle()** method - This This is used to perform operations `before sending the request to the controller`. This method should return true to return the response to the client.
 
-2. **preHandle()** method - This is used to perform operations `before sending the response to the client`.
+2. **postHandle()** method - This is used to perform operations `before sending the response to the client`.
 
 3. **afterCompletion()** method - This is used to perform operations `after completing the request and response`.
 
